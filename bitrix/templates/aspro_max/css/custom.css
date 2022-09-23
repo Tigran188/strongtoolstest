@@ -1,0 +1,293 @@
+
+/*NOTE: This file is intended for programmers. Aspro technical support is not advised to work with him.*/
+
+/* Examples (uncomment to use):*/
+
+/* Expand site width */
+/* body .wrapper { max-width: 1400px !important;  } */
+
+/* Set site background image */
+/* body {  background: url(image_source) top no-repeat; }
+
+/* Hide compare button */
+/* a.compare_item { display: none !important;  }*/
+
+.right_block ul li:before, .right_block ol li:before {
+    padding: 0;
+    margin-left: 0;
+    width: 20px;
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    zoom: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "\25CF";
+}
+ul:not([id*=bx_])>li:before{
+    content: "\25CF";
+    margin: 0 7px 0 -21px;
+color:#dd1426;
+}
+
+.opt-price_message {
+    margin: 22px 0px -10px 0;
+    background: #fff;
+    display: block;
+    padding-left: 27px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+    text-align: left;
+    position: relative;
+}
+.opt-price_message{
+    margin: 22px 0 -10px 0;
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    line-height: 21px;
+    color: #333;
+    text-align: left;
+    position: relative;
+    padding: 12px 16px 16px 28px;
+    background: #fcd226;
+    border-radius: 5px;
+}
+.opt-price_message span.attention-text {
+    position: relative;
+    padding-left: 20px;
+    line-height: 30px;
+}
+.opt-price_message .attention-text::before{
+    content: '';
+    background-image: url('../images/warning.png');
+    background-size: 16px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    top: 1px;
+    background-repeat: no-repeat;
+}
+.payment_text {
+	background: #FCF8E3; 
+	position: absolute; 
+	width: 477px; 
+	height: 82px; 
+	border: 1px solid #FAEBCC;
+}
+.payment_text p{
+	margin: 15px 25px; 
+	font-family: 'Montserrat'; 
+	font-style: normal; 
+	font-weight: 400; 
+	font-size: 15px;
+	line-height: 170%; 
+	text-align: center; 
+	color: #777777;
+}
+.payment_text a {
+	color: #777777;
+}
+.payment_notice {
+    width: 413px;
+    height: 101px;
+    background: #FFD326;
+    border-radius: 3px;
+}
+.attention {
+    display: flex;
+}
+.attention img {
+    margin-left: 22px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+.attention p {
+    margin-top: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 170%;
+}
+.p1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 170%;
+    margin-top: -10px;
+    margin-left: 24px;
+    margin-right: 22px;
+}
+.confirm_notice {
+    width: 312px;
+    height: 123px;
+    background: #FFD326;
+    border-radius: 3px;
+}
+.requisites {
+    display: flex;
+}
+.req_box {
+    width: 522px;
+}
+.req_info {
+    margin-right: 30px;
+    outline: 1px solid #ECECEC;
+    padding-bottom: 5px;
+    height: 100%;
+}
+.req_title {
+    color: #333333;
+    font-family: Montserrat;
+    font-style: bold;
+    font-size: 19px;
+    line-height: 26px;
+    line-height: 112%;
+    box-align: Left;
+    vertical-align: Top;
+    padding-bottom: 35px;
+}
+.req_type {
+    padding: 35px;
+    padding-bottom: 5px;
+}
+.req_row .title {
+    font-size: 15px;
+    line-height: 26px;
+    line-height: 142%;
+}
+.company_name {
+    color: #555555;
+    font-family: Montserrat;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 26px;
+    line-height: 142%;
+    box-align: Left;
+    vertical-align: Top;
+    padding: 35px;
+    padding-top: 0px;
+}
+/*.row {
+    margin-left: 35px;
+    margin-bottom: 35px;
+}*/
+.cell {
+    margin-top: -35px;
+    font-family: Montserrat;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 26px;
+    line-height: 142%;
+    box-align: Left;
+    Vertical-align: Top;
+}
+.cell p {
+    margin: 0 px;
+    margin-top: -15px;
+}
+.info last-child {
+    margin-bottom: 0px;
+}
+.cont {
+    display: flex;
+}
+.req_icon {
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-bottom: 50px;
+}
+.req_icon img {
+    border-radius: 50%;
+}
+@media (max-width: 767px) {
+    .requisites {
+        display: flex;
+    }
+    .req_box {
+        width: 522px;
+    }
+    .req_info {
+        margin-right: 30px;
+        outline: 1px solid #ECECEC;
+        padding-bottom: 5px;
+        height: 100%;
+    }
+    .req_title {
+        color: #333333;
+        font-family: Montserrat;
+        font-style: bold;
+        font-size: 19px;
+        line-height: 26px;
+        line-height: 112%;
+        box-align: Left;
+        vertical-align: Top;
+        padding-bottom: 35px;
+    }
+    .req_type {
+        padding: 35px;
+        padding-bottom: 5px;
+        padding-left:10px;
+    }
+    .req_row .title {
+        font-size: 15px;
+        line-height: 26px;
+        line-height: 142%;
+    }
+    .company_name {
+        color: #555555;
+        font-family: Montserrat;
+        font-style: Regular;
+        font-size: 15px;
+        line-height: 26px;
+        line-height: 142%;
+        box-align: Left;
+        vertical-align: Top;
+        padding: 35px;
+        padding-top: 0px;
+        padding-left:10px;
+    }
+    .req_row {
+        margin-left: 35px;
+        margin-bottom: 20px;
+    }
+    .req_cell {
+        margin-top: -35px;
+        font-family: Montserrat;
+        font-style: Regular;
+        font-size: 15px;
+        line-height: 26px;
+        line-height: 142%;
+        box-align: Left;
+        Vertical-align: Top;
+    }
+    .req_cell p {
+        margin: 0 px;
+        margin-top: -15px;
+    }
+    .req_info last-child {
+        margin-bottom: 0px;
+    }
+    .cont {
+        display: flex;
+    }
+    .req_icon {
+        padding-left: 24px;
+        padding-top: 24px;
+        padding-bottom: 50px;
+    }
+    .req_icon img {
+        border-radius: 50%;
+    }
+    .details {
+        max-width: 330px;
+    }

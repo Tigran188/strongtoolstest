@@ -1,0 +1,77 @@
+.mySwiper .swiper-wrapper .swiper-slide {
+    padding: 177px 0 214px 0 ;
+}
+.mySwiper .swiper-wrapper .swiper-slide .banner_title_text h2{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 13px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.mySwiper .swiper-wrapper .swiper-slide .banner_title_text{
+    width: 1350px;
+    margin: 0 auto;
+}
+.mySwiper .swiper-wrapper .swiper-slide .banner_title_text p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 1439px) and (min-width: 1280px) {
+    .mySwiper .swiper-wrapper .swiper-slide .banner_title_text{
+        width: 96%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1279px) and (min-width: 1024px) {
+    .mySwiper .swiper-wrapper .swiper-slide .banner_title_text{
+        width: 96%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1023px) and (min-width: 767px) {
+    .mySwiper .swiper-wrapper .swiper-slide .banner_title_text{
+        width: 94%;
+        margin: 0 auto;
+    }
+    .mySwiper .swiper-wrapper .swiper-slide .banner_title_text h2 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 13px;
+        letter-spacing: .03em;
+        color: #FFF;
+    }
+    .mySwiper .swiper-wrapper .swiper-slide .banner_title_text p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 26px;
+        color: #FFF;
+    }
+}
+@media (max-width: 766px) and (min-width: 320px) {
+    .mySwiper .swiper-wrapper .swiper-slide .banner_title_text{
+        width: 94%;
+        margin: 0 auto;
+    }
+    .mySwiper .swiper-wrapper .swiper-slide .banner_title_text h2 {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 13px;
+        letter-spacing: .03em;
+        color: #FFF;
+    }
+    .mySwiper .swiper-wrapper .swiper-slide .banner_title_text p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 26px;
+        color: #FFF;
+    }
+    .mySwiper .swiper-wrapper .swiper-slide {
+        padding: 70px 0 75px 0;
+    }
+}
